@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Arial", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.parte-cinza{
+    background-color: #f1f1f1;
+    height: 33px;
+    list-style:none;
+}
+
+.parte-cinza li{
+    position:relative;
+    float:left;
+    border-right:2px solid #dddbdb;
+    padding:7px 17px;   
+}
+
+.parte-cinza li a{
+    font-size: 13px;
+    font-weight: bold;
+    color:#626161; 
+    text-decoration:none;
+    display:inline-block;
+}
+
+.maozinhas{
+    padding: 2.5px 5px;
+}
+
+nav.blocos-menu-cinza {
+    width: 1040px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.maior{
+    width: 120px;
+}
+
+.icone-pequeno{
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+    float:left;
+}
+
+.brasil{
+    list-style-image: url("imagens/bandeira\ do\ br2.png");
+}
+
+a span1{
+    color: red;
+}
+
+.menu-verde-claro{
+    background-color: #137f27;
+    height: 148px;
+}
+
+.menu-acessibilidade{
+    height: 33px;
+}
+
+.menu-acessibilidade li{
+    float:left;
+    list-style-type: none;
+}
+
+.menu-acessibilidade span2 li{
+    padding:8px 8px;
+}
+
+.menu-acessibilidade span2 li a{
+    font-size: 10px;
+    color:#f1f1f1; 
+    text-decoration:none;
+    display:inline-block;
+}
+
+a span{
+	background-color: #dddbdb;
+    color: #626161;
+	margin:0 auto;
+	padding: 1px 2px 1px 2px; 
+}
+
+.menu-acessibilidade span2 li a:hover{
+    background-color: #99ac91;
+    margin:0 auto;
+	padding: 1px 1px 1px 1px; 
+}
+
+.verde1 li{
+    padding:16px 6px; 
+}
+
+.verde1 li a:hover{
+    filter: saturate(150%);
+}
+
+.verde1 li a img{
+    max-width:25px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+}
+
+.verde2 li{
+    padding: 8px 8px;
+}
+
+.verde2 li a{
+    font-size: 10px;
+    color:#f1f1f1;
+    text-decoration: none; 
+}
+
+.verde2 li a:hover{
+    color:#f1f1f1;
+    text-decoration: underline; 
+}
+
+ul.blocos-menu-verde {
+    width: 1030px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.espaço-verde{
+    margin-left: 140px;
+}
+
+.espaço-verde2{
+    margin-right: 40px;
+}
+
+.menu-if-goiano a{
+    text-decoration: none;
+    color:white;
+    float:left;
+}
+
+.blocos-if-goiano a p{
+    font-size: 10;
+}
+
+#divBusca{
+    background-color:white;
+    border:#f1f1f1 ;
+    border-radius:5px;
+    width:240px;
+    float:right;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding:5px 1px 2px 7px;
+    font-style:arial;
+    font-size:14px;
+    border:none;
+    height:28px;
+    width: 150px;
+}
+
+.icone-lupa{
+    margin:3px 5px 3px 3px;
+    max-width:30px;
+    max-height:25px;
+    width: auto;
+    height: auto;
+    float:right
+}  
+
+#divBusca, .blocos-if-goiano a{
+    margin-top: 20px;
+}
+
+.redes-sociais li{
+    float:right;
+    list-style-type: none;
+    margin-right: 7px;
+}
+
+.redes-sociais li a img{
+    max-width:25px;
+    max-height:25px;
+    width: auto;
+    height: auto;
+}
+
+.float-direita{
+    float: right;
+}
+
+div.blocos-if-goiano{
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-verde-escuro{
+    background-color: #00420c;
+    height: 32px;
+}
+
+.menu-verde-escuro li{
+    list-style-type: none;
+    float:right;
+    padding: 9px 12px;
+    border-left: #2f5439 solid 1px;
+}
+
+.menu-verde-escuro li a{
+    display: inline-block;
+    text-decoration: none;
+    color:#f1f1f1;
+}
+
+.menu-verde-escuro li a:hover{
+    text-decoration: underline; 
+}
+
+ul.blocos-verde-escuro{
+    width: 1022px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
